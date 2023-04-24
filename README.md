@@ -22,5 +22,4 @@ If you'd like to contribute to this project, please follow the steps below:
     -Create a pull request to the original repository
     
     
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+
