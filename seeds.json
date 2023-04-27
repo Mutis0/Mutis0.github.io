@@ -1,0 +1,58 @@
+{
+    "products":[
+        {
+            "id": 1 ,
+            "name": "Cat-Food",
+            "image": "file:///C:/Users/nick/Downloads/Karma%20sucha%20dla%20kota.jpg",
+        },
+
+        {
+            "id": 2 ,
+            "name": "Cat-Treats",
+            "image": "file:///C:/Users/nick/Downloads/Cats%20-%20Wagg%20Pet%20Foods.png",
+        },
+
+        {
+            "id": 3 ,
+            "name": "Dog-Food",
+            "image": "file:///C:/Users/nick/Downloads/Hulsbosch%20Brands%20New%20'Woofin%E2%80%99%20Good!'%20Dog%20Food%20Range%20-%20Logo-Designer_co.jpg",
+        },
+
+        {
+            "id": 4 ,
+            "name": "Dog-Treats",
+            "image": "file:///C:/Users/nick/Downloads/Scrumbles%20Dog%20Treats%20Plant%20Based%20Softies.jpg",
+        },
+
+        {
+            "id": 5 ,
+            "name": "Cat-Furniture",
+            "image": "file:///C:/Users/nick/Downloads/Piller%20-%20PetPals%203%20level%20Jute%20Made%20Cat%20Furniture%3b%2022x15x39%20.jpg",
+        },
+
+        {
+            "id": 6 ,
+            "name": "Cat-Toys",
+            "image": "file:///C:/Users/nick/Downloads/Cat%20Toys%205%20Pieces%20Rainbow%20Ball.jpg",
+        },
+
+        {
+            "id": 7 ,
+            "name": "Dog-Toys",
+            "image": "file:///C:/Users/nick/Downloads/Premium%20Photo%20Pet%20care%20concept%20various%20pet%20accessories%20and%20tools%20on%20green%20background%20flat%20lay.png",
+        },
+
+        {
+            "id": 8 ,
+            "name": "Pharmacy",
+            "image": "file:///C:/Users/nick/Downloads/Premium%20Photo%20Pet%20care%20concept%20various%20pet%20accessories%20and%20tools%20on%20green%20background%20flat%20lay.png",
+        },
+
+        {
+            "id": 9 ,
+            "name": "Today's Deals",
+            "image": "file:///C:/Users/nick/Downloads/SALE%20-%20Shop%20Our%20Sale%20Collection%20-%20Unique%20Vintage.jpg",
+        }
+
+    ]
+}
