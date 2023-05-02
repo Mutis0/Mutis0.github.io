@@ -3,16 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
     <title>PnG PetStore Website</title>
+
     <!--css file link-->
     <link rel="stylesheet" href="styles.css">
 
     <!--Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,500;1,600&family=Sigmar&display=swap" rel="stylesheet">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,500;1,600&family=Poppins:wght@300;400;500;600;700&family=Sigmar&display=swap" rel="stylesheet">
@@ -23,31 +20,50 @@
 <body>
     
     <!--Header Section-->
-    <header class="header">
-        <a href="#" class="logo"> <i class="fa-solid fa-paw"></i> Store </a>
+    <header class="header" data-header>
+        <a href="#" class="logo"> <i class="fa fa-paw"></i> Store </a>
+
+        <button class="menu-btn">
+            <i class="fa fa-bars"></i>
+          </button>
+
+          <div class="menu-icons">
+            <form class="search-form" action="#" method="get">
+              <input type="search" name="search" placeholder="Search">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+            <a href="#" class="cart-icon"><i class="fa fa-shopping-cart"></i></a>
+          </div>
+
         <nav class="navbar">
             <a href="#home">Home</a>
             <a href="#shop">Shop</a>
             <a href="#services">Services</a>
             <a href="#contact">Contact</a>
-            <button class="add-to-cart">Add to Cart</button>
         </nav>
+
     </header>
-
-
 <!--Home Section-->
+
 <section class="home" id="home">
+
     <div class="content">
         <h3><span>Hi! </span>  Welcome to the PnG Store</h3>
         <a href="#" class="btn">Shop Now</a>
     </div>
-    <img src="file:///C:/Users/nick/Downloads/Cute%20background%20video%20for%20edits%20free%20download%20no%20copyright%20green%20feet%20of%20rocky%20paw%20patrol%20theme%20bg.jpg">
+
+    <img src="file:///C:/Users/nick/Downloads/Cute%20background%20video%20for%20edits%20free%20download%20no%20copyright%20green%20feet%20of%20rocky%20paw%20patrol%20theme%20bg.jpg" alt="background image">
+
 </section>
 
 <!--Shop Section-->
-<section class="Shop" id="Shop">
+
+<section class="shop" id="shop">
+
     <h1 class="heading">Our <span>Products</span></h1>
+
     <div class="box-container">
+
         <div class="box">
             <div class="icons">
                 <a href="#" class="fas fa-shopping-cart"></a>
@@ -82,7 +98,7 @@
                 <a href="#" class="fas fa-heart"></a>
             </div>
             <div class="image">
-                <img src="file:///C:/Users/nick/Downloads/Hulsbosch%20Brands%20New%20'Woofin%E2%80%99%20Good!'%20Dog%20Food%20Range%20-%20Logo-Designer_co.jpg" alt="Dog Food">
+                <img src="file://///wsl.localhost/Ubuntu/home/mutiso/Phase-1-Project/images/Woofin'%20Good!%20Brand%20Identity%20and%20Packaging%20Design%20by%20Hulsbosch%20-%20World%20Brand%20Design%20Society.jpg" alt="Dog Food">
             </div>
             <div class="content">
                 <h3>Dog-Food</h3>
@@ -152,7 +168,7 @@
                 <a href="#" class="fas fa-heart"></a>
             </div>
             <div class="image">
-                <img src="file:///C:/Users/nick/Downloads/Premium%20Photo%20Pet%20care%20concept%20various%20pet%20accessories%20and%20tools%20on%20green%20background%20flat%20lay.png" alt="Medicine">
+                <img src="file://///wsl.localhost/Ubuntu/home/mutiso/Phase-1-Project/images/Pet%20Medicine%20Bottle.png" alt="Medicine">
             </div>
             <div class="content">
                 <h3>Pharmacy</h3>
@@ -177,7 +193,8 @@
 </section>
 
 <!--Services Section-->
-<section class="Services" id="Services">
+<section class="services" id="services">
+
     <h1 class="heading">Our <span> Services</span></h1>
     <div class="box-container">
 
@@ -203,6 +220,7 @@
 
 <!--Contact Section-->
 <section class="contact" id="contact">
+
     <div class="image">
         <img src="file:///C:/Users/nick/Downloads/jpg" alt=>
     </div>
@@ -217,7 +235,7 @@
 </section>
 
 <section class="footer">
-    <img src="" alt="">
+
     <div class="share">
         <a href="#" class="btn"> <i class="fab-fa-facebook-f"></i>Facebook</a>
         <a href="#" class="btn"> <i class="fab-fa-twitter"></i>Twitter</a>
@@ -230,6 +248,6 @@
 
 
 
-<script  src="app.js"></script>
+<script  src="index.js"></script>
 </body>
 </html>
