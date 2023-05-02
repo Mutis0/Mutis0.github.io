@@ -106,7 +106,7 @@ section {
         /*HEADER*/
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background-color: #000;
   height: 80px;
@@ -114,13 +114,96 @@ section {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
+.header.active {
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+}
+
 .logo {
-  display: flex;
+  margin: auto;
+  justify-content: space-between;
   align-items: center;
   font-size: 1.75cm;
   font-weight: bolder;
   text-decoration: none;
   color: #fff;
+}
+
+.menu-btn {
+  background: none;
+  border: none;
+  color: #333;
+  font-size: 24px;
+  margin-left: 20px;
+}
+
+.menu-btn:hover {
+  cursor: pointer;
+}
+
+.menu-icons {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-form {
+  display: flex;
+}
+
+.search-form input[type="search"] {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.search-form button[type="submit"] {
+  background: none;
+  border: none;
+  color: #333;
+  font-size: 24px;
+}
+
+.cart-icon {
+  display: inline-block;
+  position: relative;
+  color: #333;
+  font-size: 24px;
+  margin-left: 20px;
+}
+
+.cart-icon:hover {
+  cursor: pointer;
+}
+
+.cart-icon:before {
+  content: "0";
+  display: block;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  background-color: #f00;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bold;
+  visibility: hidden;
+}
+
+.cart-icon:hover:before {
+  visibility: visible;
 }
 
 .navbar {
@@ -159,21 +242,6 @@ section {
   color: #ccc;
 
 }
-
-.icons {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.icons a,
-.icons div {
-  font-size: 24px;
-  color: #e67e22;
-  text-decoration: none;
-  margin-right: 20px;
-}
-
 
            /*LOGIN FORM*/
 .wrapper{
